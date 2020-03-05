@@ -1,8 +1,13 @@
 var a = 5;
-var b = 5;
+var b = "apple";
 
-console.log(a+b);
-console.log(typeof (a+b));
+if (isNaN(b) || isNaN(a)){
+
+console.log("that ain't a number");
+
+}else{
+    console.log(a*b);
+}
 
 
-console.log(Math.PI);
+
