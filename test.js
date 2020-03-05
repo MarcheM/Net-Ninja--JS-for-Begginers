@@ -1,19 +1,11 @@
- var myString = 'I\'m a "fun" ninja String';
+var str ="hello, world";
+var str2 = str.slice(2, 9);
+var str3 = str.slice(2);
+ console.log(str2);
+ console.log(str3);
 
- console.log(myString.length);
- console.log(myString.toUpperCase());
- console.log(myString.toLowerCase());
- console.log(myString.indexOf("fun"));
- console.log(myString.indexOf("ninja"));
-    if (myString.indexOf("ninja") === -1){
-        console.log("the word ninja is not in the string");
-    }else{
-        console.log("The word ninja starts at position " + myString.indexOf("ninja"))
-    }
- var string1 = "abc";
- var string2 = "bcd";
- console.log(string1 === string2);
-
- console.log(string1 < string2);
-
+ var tags = "meat, ham, salami, pork, chicken";
+ console.log(tags);
+ var tagsArray = tags.split(", ");
+ console.log(tagsArray);
  
